@@ -190,9 +190,9 @@ To create a new playlist for a user, send a `POST` request:
 ### API Request and Response
 
 To add tracks to a playlist, send a `POST` request
-
+![addsongstoplaylist](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/addsongstoplaylist.PNG)
 ### JavaScript Tests
-
+![addsongstoplaylisttests](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/addsongstoplaylisttests.PNG)
 ## 7. Get Current User's Playlists
 
 **HTTP Method for Request:** `GET`
