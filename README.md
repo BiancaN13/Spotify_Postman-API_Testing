@@ -223,9 +223,9 @@ To get a list of the current user's playlists, send a `GET` request:
 ### API Request and Response
 
 To update the details of a playlist, send a `PUT` request:
-
+![changeplaylistdetails](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/changeplaylistdetails.PNG)
 ### JavaScript Tests
-
+![changeplaylistdetailstests](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/changeplaylistdetailstests.PNG)
 ## 9. Get Artist
 
 **HTTP Method for Request:** `GET`
