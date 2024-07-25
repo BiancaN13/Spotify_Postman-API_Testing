@@ -124,9 +124,9 @@ To retrieve the current user's profile information, send a GET request:
 **Response Status Code:** `200 OK`
 
 ### API Request and Response
-
+![savealbum](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/savealbum.PNG)
 To save one or more albums to the current user's library, send a `PUT` request:
-
+![savealbumtest](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/savealbumtest.PNG)
 ### JavaScript Tests
 
 ## 3. Get User's Saved Albums
