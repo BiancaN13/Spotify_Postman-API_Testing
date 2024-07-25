@@ -265,7 +265,28 @@ To get a list of new releases, send a `GET` request:
 **After creating one more new request to get new releases, I also found a bug - the response time was not within the acceptable limit.**
 ## Execution report for the Spotify collection
 Below you can find the execution report that was generated through the Postman collection runner:
+![collectionrun](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/collectionrun.PNG)
+## Conclusion
+The Spotify-API Testing project in Postman is designed to facilitate the understanding and integration of Spotify's extensive music data into applications. This comprehensive project provides pre-configured requests, environment setups, and automated tests to ensure the Spotify Web API works as expected. The detailed documentation and examples guide developers through the process of interacting with various Spotify API endpoints, handling authentication, and performing common operations such as retrieving user profiles, managing playlists, and obtaining music recommendations.
 
+## Key Accomplishments:
+## 1. Comprehensive API Coverage:
+- The project includes a wide range of requests to test various functionalities of the Spotify Web API, such as retrieving user profiles, managing playlists, and interacting with playback.
+
+## 2. Authorization Setup:
+- Detailed steps are provided for setting up OAuth 2.0 authorization, including creating a Spotify Developer Account, registering an application, and configuring environment variables in Postman.
+
+## 3. Automated Testing:
+- Automated tests are included for each request, ensuring that responses are as expected. This helps in identifying any issues quickly and ensures that the API integration remains robust.
+
+## 4. Extensive Test Suite:
+- A comprehensive set of 32 tests was created, covering various functionalities in the Spotify Web API. Tests included GET, POST, PUT, and DELETE HTTP methods for extensive coverage.
+
+## 5. Execution and Reporting:
+- All the tests were successfully executed using Postman's runner and Newman. Detailed execution reports were generated, providing information about each test case's performance and status.
+
+## 6. Bug Identification:
+- During the testing process, a bug related to the response time for the "Get New Releases" endpoint was identified, highlighting the importance of performance testing alongside functionality testing.
 
 
 
