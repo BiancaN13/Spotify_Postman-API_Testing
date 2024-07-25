@@ -263,6 +263,8 @@ To get a list of new releases, send a `GET` request:
 ![getnewreleasesresponse](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/getnewreleasesresponse.PNG)
 
 **After creating one more new request to get new releases, I also found a bug - the response time was not within the acceptable limit.**
+## Execution report for the Spotify collection
+Below you can find the execution report that was generated through the Postman collection runner:
 
 
 
