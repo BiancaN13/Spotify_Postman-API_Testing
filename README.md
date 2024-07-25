@@ -157,9 +157,9 @@ To get a list of saved albums for the current user, send a `GET` request:
 ### API Request and Response
 
 To remove one or more albums from the current user's library, send a `DELETE` request:
-
+![deleteuserssavedalbum](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/deleteuserssavedalbum.PNG)
 ### JavaScript Tests
-
+![deleteuserssavedalbumtests](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/deleteuserssavedalbumtests.PNG)
 ## 5. Create Playlist
 
 **HTTP Method for Request:** `POST`
