@@ -106,7 +106,158 @@ The Spotify Web API supports various HTTP methods to interact with its resources
 **Endpoint:** `GET https://api.spotify.com/v1/artists/{id}`
 
 **Response Status Code:** `200 OK`
-### API Request
+### API Request and Response
 
 To get information about a specific artist, send a GET request to the following URL, replacing `{id}` with the artist's Spotify ID:
+
+### JavaScript Tests
+## 2. Save Album for Current User
+
+**HTTP Method for Request:** `PUT`
+
+**Request Description:** Save one or more albums to the current user's 'Your Music' library.
+
+**Endpoint:** `PUT https://api.spotify.com/v1/me/albums`
+
+**Response Status Code:** `200 OK`
+
+### API Request and Response
+
+To save one or more albums to the current user's library, send a `PUT` request:
+
+### JavaScript Tests
+
+## 3. Get User's Saved Albums
+
+**HTTP Method for Request:** `GET`
+
+**Request Description:** Retrieves a list of albums saved in the current Spotify user's 'Your Music' library.
+
+**Endpoint:** `GET https://api.spotify.com/v1/me/albums`
+
+**Response Status Code:** `200 OK`
+
+### API Request and Response
+
+To get a list of saved albums for the current user, send a `GET` request:
+
+### JavaScript Tests
+
+## 4. Delete User's Saved Album
+
+**HTTP Method for Request:** `DELETE`
+
+**Request Description:** Remove one or more albums from the current user's 'Your Music' library.
+
+**Endpoint:** `DELETE https://api.spotify.com/v1/me/albums`
+
+**Response Status Code:** `200 OK`
+
+### API Request and Response
+
+To remove one or more albums from the current user's library, send a `DELETE` request:
+
+### JavaScript Tests
+
+## 5. Create Playlist
+
+**HTTP Method for Request:** `POST`
+
+**Request Description:** Create a new playlist for a Spotify user. The playlist will be empty initially and will need tracks added to it separately. Each user is generally limited to a maximum of 11,000 playlists.
+
+**Endpoint:** `POST https://api.spotify.com/v1/users/{user_id}/playlists`
+
+**Response Status Code:** `201 Created`
+
+### API Request and Response
+
+To create a new playlist for a user, send a `POST` request:
+
+### JavaScript Tests
+
+## 6. Add Songs to Playlist
+
+**HTTP Method for Request:** `POST`
+
+**Request Description:** Add one or more tracks to an existing playlist for a Spotify user. 
+
+**Endpoint:** `POST https://api.spotify.com/v1/playlists/{playlist_id}/tracks`
+
+**Response Status Code:** `201 Created`
+
+### API Request and Response
+
+To add tracks to a playlist, send a `POST` request
+
+### JavaScript Tests
+
+## 7. Get Current User's Playlists
+
+**HTTP Method for Request:** `GET`
+
+**Request Description:** Retrieve a list of playlists owned or followed by the current Spotify user.
+
+**Endpoint:** `GET https://api.spotify.com/v1/me/playlists`
+
+**Response Status Code:** `200 OK`
+
+### API Request and Response
+
+To get a list of the current user's playlists, send a `GET` request:
+
+### JavaScript Tests
+
+## 8. Change Playlist Details
+
+**HTTP Method for Request:** `PUT`
+
+**Request Description:** Update the details of an existing Spotify playlist. You can change the playlist's name, description, and visibility (public/private).
+
+**Endpoint:** `PUT https://api.spotify.com/v1/playlists/{playlist_id}`
+
+**Response Status Code:** `200 OK`
+
+### API Request and Response
+
+To update the details of a playlist, send a `PUT` request:
+
+### JavaScript Tests
+
+## 9. Get Artist
+
+**HTTP Method for Request:** `GET`
+
+**Request Description:** Retrieve Spotify catalog information for a single artist identified by their unique Spotify ID.
+
+**Endpoint:** `GET https://api.spotify.com/v1/artists/{id}`
+
+**Response Status Code:** `200 OK`
+
+### API Request and Response
+
+To get information about a specific artist, send a `GET` request:
+
+### JavaScript Tests
+
+## 10. Get New Releases
+
+**HTTP Method for Request:** `GET`
+
+**Request Description:** Retrieve a list of new album releases on Spotify. This endpoint provides information about newly released albums.
+
+**Endpoint:** `GET https://api.spotify.com/v1/browse/new-releases`
+
+**Response Status Code:** `200 OK`
+
+### API Request and Response
+
+To get a list of new releases, send a `GET` request:
+
+### JavaScript Tests
+
+
+
+
+
+
    
