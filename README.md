@@ -124,11 +124,10 @@ To retrieve the current user's profile information, send a GET request:
 **Response Status Code:** `200 OK`
 
 ### API Request and Response
-![savealbum](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/savealbum.PNG)
 To save one or more albums to the current user's library, send a `PUT` request:
-![savealbumtest](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/savealbumtest.PNG)
+![savealbum](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/savealbum.PNG)
 ### JavaScript Tests
-
+![savealbumtest](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/savealbumtest.PNG)
 ## 3. Get User's Saved Albums
 
 **HTTP Method for Request:** `GET`
@@ -140,11 +139,11 @@ To save one or more albums to the current user's library, send a `PUT` request:
 **Response Status Code:** `200 OK`
 
 ### API Request and Response
-
 To get a list of saved albums for the current user, send a `GET` request:
-
+![getuserssavedalbums](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/getuserssavedalbum.PNG)
 ### JavaScript Tests
-
+![getuserssavedalbumstest](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/getuserssavedalbumtest.PNG)
+![getuserssavedalbumsresponse](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/getuserssavedalbumresponse.PNG)
 ## 4. Delete User's Saved Album
 
 **HTTP Method for Request:** `DELETE`
