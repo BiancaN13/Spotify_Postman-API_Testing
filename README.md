@@ -206,9 +206,10 @@ To add tracks to a playlist, send a `POST` request
 ### API Request and Response
 
 To get a list of the current user's playlists, send a `GET` request:
-
+![getcurrentusersplaylist](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/getcurrentusersplaylist.PNG)
 ### JavaScript Tests
-
+![getcurrentusersplaylisttests](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/getcurrentusersplaylisttest.PNG)
+![getcurrentusersplaylistresponse](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/getcurrentusersplaylistresponse.PNG)
 ## 8. Change Playlist Details
 
 **HTTP Method for Request:** `PUT`
