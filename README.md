@@ -239,9 +239,11 @@ To update the details of a playlist, send a `PUT` request:
 ### API Request and Response
 
 To get information about a specific artist, send a `GET` request:
-
+![getartist](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/getartist.PNG)
 ### JavaScript Tests
-
+![getartisttest](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/getartisttest.PNG)
+![getartisttest2](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/getartisttest2.PNG)
+![getartistresponse](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/getartistresponse.PNG)
 ## 10. Get New Releases
 
 **HTTP Method for Request:** `GET`
