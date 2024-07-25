@@ -173,9 +173,10 @@ To remove one or more albums from the current user's library, send a `DELETE` re
 ### API Request and Response
 
 To create a new playlist for a user, send a `POST` request:
-
+![createplaylist](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/createplaylist.PNG)
 ### JavaScript Tests
-
+![createplaylisttests](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/createplaylisttests.PNG)
+![createplaylistresponse](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/createplaylistresponse.PNG)
 ## 6. Add Songs to Playlist
 
 **HTTP Method for Request:** `POST`
