@@ -257,8 +257,12 @@ To get information about a specific artist, send a `GET` request:
 ### API Request and Response
 
 To get a list of new releases, send a `GET` request:
-
+![getnewreleases](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/getnewreleases.PNG)
 ### JavaScript Tests
+![getnewreleasestests](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/getnewreleasestests.PNG)
+![getnewreleasesresponse](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/getnewreleasesresponse.PNG)
+
+**After creating one more new request to get new releases, I also found a bug - the response time was not within the acceptable limit.**
 
 
 
