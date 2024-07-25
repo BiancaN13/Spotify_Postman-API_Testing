@@ -101,16 +101,18 @@ The Spotify Web API supports various HTTP methods to interact with its resources
 
 **HTTP Method for Request:** `GET`
 
-**Request Description:** Retrieves Spotify catalog information for a single artist identified by their unique Spotify ID.
+**Request Description:** Retrieves information about the current Spotify user's profile, including their display name, number of followers, and profile image (if available).
 
-**Endpoint:** `GET https://api.spotify.com/v1/artists/{id}`
+**Endpoint:** `GET https://api.spotify.com/v1/me`
 
 **Response Status Code:** `200 OK`
 ### API Request and Response
 
-To get information about a specific artist, send a GET request to the following URL, replacing `{id}` with the artist's Spotify ID:
-
+To retrieve the current user's profile information, send a GET request:
+![getcurrentusersprofile](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/getusersprofile.PNG)
 ### JavaScript Tests
+![testgetusersprofile](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/testgetuserprofile.PNG)
+![responsegetusersprofile](https://github.com/BiancaN13/Spotify_Postman-API_Testing/blob/main/responsegetusersprofile.PNG)
 ## 2. Save Album for Current User
 
 **HTTP Method for Request:** `PUT`
